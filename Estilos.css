@@ -73,7 +73,6 @@ header a {
     justify-content: space-around;
 }
 
-
 .Model1 {
     height: 400px;
     border: 2px solid #000;
@@ -83,8 +82,12 @@ header a {
     display: inline-block;
     text-align: center;
     background-image: url(./Imagenes/Foto\ Ceremonia.png);
+    
 }
 
+.scale:hover{
+    transform: scaleX(1.10);
+}
 .Model2 {
     height: 400px;
     border: 2px solid #000;
